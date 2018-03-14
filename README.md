@@ -6,7 +6,7 @@ Different types of chromosomes can be used. The framework currently provides Bit
 
 Population is highly configurable. The methods of selection (default: roulette wheel selection), recombination (default: pairwise) and merging of generations (default: replace) can be changed. Elitism can be enabled and the size of the new generation can differ from the size of the old generation.
 
-'Population' requires a fitness function, i.e. an object with a `fitness` method that takes a chromosome as an argument and returns a fitness value.
+`Population` requires a fitness function, i.e. an object with a `fitness` method that takes a chromosome as an argument and returns a fitness value.
 
 For an example of a fitness function and the usage of `Population` see `tsp.rb`.
 
